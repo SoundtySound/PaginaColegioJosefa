@@ -1,0 +1,260 @@
+:root{
+
+    --text-color: white;
+    --background-color: rgb(252, 252, 252);
+    --background-color-mision-vision-valores: rgb(255, 255, 255);
+    --background-color-mision-vision-valores-div:  rgb(102, 169, 211);
+    --background-color-footer: #1f1f1f;
+
+
+}
+
+
+/*--------BODY-----------*/
+
+body{
+    background-color: var(--background-color);
+    text-align: center;
+    align-items: center;
+    font-family: 'Montserrat', sans-serif;}
+
+
+
+.menu-inicio{
+
+    width: 100%;
+}
+
+/*--------HEADER---------*/
+.banner-header{
+    background-image: url("img/bg-photo3.jpeg");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 2200px;
+
+}
+
+.banner-head-tittle{
+    font-size: 60px;
+    text-align: center;
+    color: var(--text-color);
+    padding-top: 400px;
+    
+}
+
+/*----------MISIÓN VISIÓN VALORES-----------*/
+.mision-vision--valores-flexbox{
+
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: var(--background-color-mision-vision-valores);
+    justify-content: center;
+    
+
+}
+
+.mision-vision--valores-flexbox div{ 
+    color: var(--text-color);
+    margin: 0; 
+
+}
+
+/*--------MISION-----------*/
+.mision-flexbox{
+    background-color: #737495;
+    padding: 30px;
+
+
+ }
+
+.mision-flexbox-icon{
+
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(248deg) brightness(109%) contrast(100%);
+
+    
+}
+
+/*------VISION------*/
+
+.vision-flexbox{
+    background-color: #68a8ad;
+    padding: 30px;
+
+
+}
+
+.vision-flexbox-icon{
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(248deg) brightness(109%) contrast(100%);
+
+
+
+}
+
+/*------VALORES--------*/
+
+.valores-flexbox{
+    background-color: #6c8672;
+    padding: 30px;
+}
+.valores-flexbox p{
+
+    padding-top: 30px;
+}
+
+.valores-flexbox-icon{
+    padding-top: 15px;
+    filter: invert(99%) sepia(100%) saturate(2%) hue-rotate(248deg) brightness(109%) contrast(100%);
+}
+
+/*------FILOSOFIA-----*/
+
+.filosofia-institucional{
+
+    margin: 150px;
+    background-color: var(--background-color);
+    text-align: center;
+    justify-content: center;
+
+}
+
+/*----CONTACTO-----*/
+
+.contacto{
+
+    background-color: rgb(224, 224, 224);
+    color: black;
+    text-align: center;
+    justify-content: center;
+
+
+}
+
+.contacto h1 {
+    padding: 20px;
+    background-color: rgb(211, 211, 211);
+}
+
+.contacto-subtitulo{
+    padding: 10px;
+    padding-top: 20px;
+}
+
+.contacto p {
+
+    padding-bottom: 50px;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+    
+}
+
+/*------PAGINACION------*/
+
+.pagination{
+
+    justify-content: center;
+    padding-top: 25px;
+    border-top: solid 2px rgb(224, 224, 224);
+
+
+}
+
+
+/*-------FOOTER-------*/
+
+.footer{
+
+    background-color: var(--background-color-footer);
+    color: var(--text-color);
+    justify-content: center;
+    padding: 5px;
+}
+
+.footer-informacion{
+
+    padding-top: 20px;
+
+}
+
+
+/*------INDEX 2---------*/
+
+.quienes-somos{
+
+
+    background-color: var(--background-color-);
+    text-align: center;
+    justify-content: center;
+    
+}
+
+.quienes-somos-informacion{
+    padding: 50px 200px;
+}
+
+
+/*---------ESCUDO-----------*/
+
+.escudo{
+
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    justify-content: center;
+}
+
+.escudo-logo{
+    padding: 20px;
+    
+}
+
+.escudo-significado{
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+/*---------BANDERA-----------*/
+
+.bandera{
+
+
+    text-align: center;
+    justify-content: center;
+}
+
+.bandera-logo{
+    padding: 20px;
+    
+}
+
+.bandera-significado{
+    padding: 15px;
+    padding-bottom: 100px;
+}
+
+
+/*---------HIMNO-----------*/
+
+.himno{
+
+    background-color: rgb(224, 224, 224);
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 100px;
+}
+
+.himno-letra{
+    padding: 15px;
+
+}
+
+/*-------MANUAL CONVIVENCIA------*/
+
+.manual-convivencia{
+    padding-top: 60px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin: solid;
+
+}
+
